@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "SelectDoctor";
+}
+
+<h2><br />WELCOME SELECT THE DOCTOR YOU WANT TO VISIT</h2>
+<div style="width:500px;height:150px;border:1px solid #000;">
+    <h3 style="padding-left:50px;">@Html.ActionLink("DOCTOR", "ViewDoctorDetails", "Patient")</h3>
+    <h5 style="padding-left:65px;">@Html.ActionLink("Cardiologists", "CardiologistsDetails", "Patient")</h5>
+    <h5 style="padding-left:65px;">@Html.ActionLink("Child Specialist", "ChildSpecialistDetails", "Patient")</h5>
+    <h5 style="padding-left:65px;">@Html.ActionLink("Dermatologist", "DermatologistDetails", "Patient")</h5>
+    <h5 style="padding-left:65px;">@Html.ActionLink("Gynecologist", "GynecologistDetails", "Patient")</h5>
+</div>
+<div style="width:500px;height:65px;border:1px solid #000;">
+    <h3 style="padding-left:50px;">@Html.ActionLink("DENTIST", "Index", "Home")</h3>
+</div>
+<div style="width:500px;height:65px;border:1px solid #000;">
+    <h3 style="padding-left:50px;">@Html.ActionLink("PSYCHOLOGIST", "Index", "Home")</h3>
+
+</div>
+

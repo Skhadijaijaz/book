@@ -1,0 +1,71 @@
+﻿
+@{
+    ViewBag.Title = "DoctorInformation";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+
+<body>
+  <div class="container">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+        }
+    </style>
+    <h2 style="padding-top:34px;text-align:center;">
+        Doctor's Information
+    </h2>
+    <br>
+    <a href="http://localhost:61823/Admin/AddDoctor">Add Doctor</a>
+    <br><br>
+    <table style="width:100%" align="center">
+        <tr>
+            <th>Doctor's Name</th>
+            <th>Doctor's Specialization</th>
+            <th>Update Doctor</th>
+            <th>Delete Doctor</th>
+        </tr>
+        <tr>
+            <td>Ahmad ali</td>
+            <td>Cardiologist</td>
+            <td><a href="http://localhost:61823/Admin/UpdateDoctor">Update Doctor</a></td>
+            <td><a href="http://localhost:61823/Admin/DeleteDoctor">Delete Doctor</a></td>
+        </tr>
+        <tr>
+            <td>Ayesha Umar</td>
+            <td>Gynecologist</td>
+            <td><a href="http://localhost:61823/Admin/UpdateDoctor">Update Doctor</a></td>
+            <td><a href="http://localhost:61823/Admin/DeleteDoctor">Delete Doctor</a></td>
+        </tr>
+        <tr>
+            <td>Nida Iqbal</td>
+            <td>Child Specialist</td>
+            <td><a href="http://localhost:61823/Admin/UpdateDoctor">Update Doctor</a></td>
+            <td><a href="http://localhost:61823/Admin/DeleteDoctor">Delete Doctor</a></td>
+        </tr>
+        <tr>
+            <td>Adil khan</td>
+            <td>Cardiologist</td>
+            <td><a href="http://localhost:61823/Admin/UpdateDoctor">Update Doctor</a></td>
+            <td><a href="http://localhost:61823/Admin/DeleteDoctor">Delete Doctor</a></td>
+        </tr>
+        <tr>
+            <td>Wahaj Sikandar</td>
+            <td>Dermatologist</td>
+            <td><a href="http://localhost:61823/Admin/UpdateDoctor">Update Doctor</a></td>
+            <td><a href="http://localhost:61823/Admin/DeleteDoctor">Delete Doctor</a></td>
+        </tr>
+
+    </table>
+
+    </div>
+</body>
+</html>
+
+
